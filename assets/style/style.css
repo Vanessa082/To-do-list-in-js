@@ -39,6 +39,9 @@ input{
   font-size: 1.5rem;
   cursor: pointer;
   background-color: #cdcac7;
+  border: 5px solid #7fff00;
+  opacity: 0.7;
+  box-shadow: 0  4px 10px;
 }
 
 .task li{
@@ -46,4 +49,8 @@ input{
   border-top: 5px solid #0c0c0c;
   box-shadow: 0  4px 10px;
   padding: 2rem;
+}
+
+li.done{
+  text-decoration: overline;
 }
