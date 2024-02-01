@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   border: none;
-  text-decoration: none;
+  /* text-decoration: none; */
   list-style: none;
   margin: 0;
   padding: 0;
@@ -44,6 +44,10 @@ input{
   box-shadow: 0  4px 10px;
 }
 
+input:focus{
+  outline-color: #7fff00;
+}
+
 .task li{
   cursor: pointer;
   border-top: 5px solid #0c0c0c;
@@ -52,5 +56,5 @@ input{
 }
 
 li.done{
-  text-decoration: overline;
+  text-decoration: line-through;
 }
