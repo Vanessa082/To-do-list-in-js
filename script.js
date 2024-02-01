@@ -11,11 +11,9 @@ form.addEventListener('submit', (e) => {
 function addTask(task) {
   let taskText = input.value
 
-  
-
   if (taskText) {
     const taskEl = document.createElement('li')
-    if(task && task.done){
+    if (task && task.done) {
       taskEl.classList.add(done)
     }
 

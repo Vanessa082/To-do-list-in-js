@@ -52,9 +52,16 @@ input:focus{
   cursor: pointer;
   border-top: 5px solid #0c0c0c;
   box-shadow: 0  4px 10px;
-  padding: 2rem;
+  padding: 1rem 2rem;
+  max-width: 100%;
+  width: 35rem;
 }
 
 li.done{
   text-decoration: line-through;
+}
+
+small{
+  margin-top: 3rem;
+  text-align: center;
 }
