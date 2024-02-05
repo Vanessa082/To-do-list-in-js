@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/style.css" />
     <title>todo-list-app</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1>Task for todo</h1>
+    <form action="" id="form">
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Enter Task todo"
+      />
+    </form>
+    <ul class="task" id="tasks">
+      <!-- <li>Fist Task: cooking</li>
+      <li class="done">second</li> -->
+    </ul>
+    <small
+      >Click left to toggle completed <br />
+      Right to delete Task</small
+    >
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
